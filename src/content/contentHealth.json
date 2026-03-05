@@ -1,36 +1,53 @@
 {
-  "generatedAt": "2026-03-05T14:36:42.472Z",
+  "generatedAt": "2026-03-05T14:59:14.101Z",
   "totalQuestions": 100,
-  "countsPerLevel": {
+  "countsByLevel": {
     "Junior": 25,
     "Mid": 25,
     "Senior": 25,
     "Expert": 25
   },
-  "parsedCount": 0,
-  "fallbackCount": 100,
-  "usedOfflineFallback": true,
-  "missingFields": [],
-  "upstreamFailures": [
-    {
-      "level": "Junior",
-      "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/junior/README.md",
-      "error": "fetch failed"
-    },
+  "upstream": [
     {
       "level": "Mid",
       "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/mid-level/README.md",
-      "error": "fetch failed"
-    },
-    {
-      "level": "Senior",
-      "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/senior/README.md",
+      "ok": false,
       "error": "fetch failed"
     },
     {
       "level": "Expert",
       "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/expert/README.md",
+      "ok": false,
+      "error": "fetch failed"
+    },
+    {
+      "level": "Junior",
+      "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/junior/README.md",
+      "ok": false,
+      "error": "fetch failed"
+    },
+    {
+      "level": "Senior",
+      "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/senior/README.md",
+      "ok": false,
       "error": "fetch failed"
     }
+  ],
+  "parsedQuestionHeadersFound": {
+    "Junior": 25,
+    "Mid": 25,
+    "Senior": 25,
+    "Expert": 25
+  },
+  "fallbackUsed": false,
+  "warnings": [
+    "Failed to fetch Mid: fetch failed",
+    "Using local backup for Mid: scripts/content-backup/mid.md",
+    "Failed to fetch Expert: fetch failed",
+    "Using local backup for Expert: scripts/content-backup/expert.md",
+    "Failed to fetch Junior: fetch failed",
+    "Failed to fetch Senior: fetch failed",
+    "Using local backup for Junior: scripts/content-backup/junior.md",
+    "Using local backup for Senior: scripts/content-backup/senior.md"
   ]
 }
