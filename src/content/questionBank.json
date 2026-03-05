@@ -1,2837 +1,1837 @@
 [
   {
-    "id": "junior-offline-1",
+    "id": "q-001",
     "level": "Junior",
     "title": "What is a Widget and how does it differ from Element?",
-    "prompt": "### Question 1: What is a Widget and how does it differ from Element?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
-    "topics": [
-      "performance",
-      "architecture",
-      "ui"
-    ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
-    "referenceAnswerSections": {
-      "theory": "What is a Widget and how does it differ from Element? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
-    },
-    "sourceMarkdown": "### Question 1: What is a Widget and how does it differ from Element?\nWhat is a Widget and how does it differ from Element? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
-  },
-  {
-    "id": "junior-offline-2",
-    "level": "Junior",
-    "title": "Explain StatelessWidget vs StatefulWidget lifecycle.",
-    "prompt": "### Question 2: Explain StatelessWidget vs StatefulWidget lifecycle.\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 1: What is a Widget and how does it differ from Element?\nWhat is a Widget and how does it differ from Element? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "Explain StatelessWidget vs StatefulWidget lifecycle. Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 1: What is a Widget and how does it differ from Element?\nWhat is a Widget and how does it differ from Element? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
+    },
+    "sourceMarkdown": "### Question 1: What is a Widget and how does it differ from Element?\nWhat is a Widget and how does it differ from Element? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
+  },
+  {
+    "id": "q-002",
+    "level": "Junior",
+    "title": "Explain StatelessWidget vs StatefulWidget lifecycle.",
+    "prompt": "### Question 2: Explain StatelessWidget vs StatefulWidget lifecycle.\nExplain StatelessWidget vs StatefulWidget lifecycle. Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+    "topics": [
+      "performance",
+      "architecture"
+    ],
+    "followups": [],
+    "referenceAnswerSections": {
+      "theory": "### Question 2: Explain StatelessWidget vs StatefulWidget lifecycle.\nExplain StatelessWidget vs StatefulWidget lifecycle. Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 2: Explain StatelessWidget vs StatefulWidget lifecycle.\nExplain StatelessWidget vs StatefulWidget lifecycle. Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-3",
+    "id": "q-003",
     "level": "Junior",
     "title": "How does setState trigger UI updates?",
-    "prompt": "### Question 3: How does setState trigger UI updates?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 3: How does setState trigger UI updates?\nHow does setState trigger UI updates? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "state",
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How does setState trigger UI updates? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 3: How does setState trigger UI updates?\nHow does setState trigger UI updates? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 3: How does setState trigger UI updates?\nHow does setState trigger UI updates? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-4",
+    "id": "q-004",
     "level": "Junior",
     "title": "What are keys and when should you use them?",
-    "prompt": "### Question 4: What are keys and when should you use them?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 4: What are keys and when should you use them?\nWhat are keys and when should you use them? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "What are keys and when should you use them? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 4: What are keys and when should you use them?\nWhat are keys and when should you use them? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 4: What are keys and when should you use them?\nWhat are keys and when should you use them? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-5",
+    "id": "q-005",
     "level": "Junior",
     "title": "How does BuildContext work?",
-    "prompt": "### Question 5: How does BuildContext work?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 5: How does BuildContext work?\nHow does BuildContext work? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How does BuildContext work? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 5: How does BuildContext work?\nHow does BuildContext work? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 5: How does BuildContext work?\nHow does BuildContext work? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-6",
+    "id": "q-006",
     "level": "Junior",
     "title": "What is hot reload and what are its limits?",
-    "prompt": "### Question 6: What is hot reload and what are its limits?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 6: What is hot reload and what are its limits?\nWhat is hot reload and what are its limits? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "What is hot reload and what are its limits? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 6: What is hot reload and what are its limits?\nWhat is hot reload and what are its limits? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 6: What is hot reload and what are its limits?\nWhat is hot reload and what are its limits? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-7",
+    "id": "q-007",
     "level": "Junior",
     "title": "How do you structure layouts with Row, Column, and Expanded?",
-    "prompt": "### Question 7: How do you structure layouts with Row, Column, and Expanded?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 7: How do you structure layouts with Row, Column, and Expanded?\nHow do you structure layouts with Row, Column, and Expanded? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
-      "architecture"
+      "architecture",
+      "rendering"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you structure layouts with Row, Column, and Expanded? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 7: How do you structure layouts with Row, Column, and Expanded?\nHow do you structure layouts with Row, Column, and Expanded? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 7: How do you structure layouts with Row, Column, and Expanded?\nHow do you structure layouts with Row, Column, and Expanded? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-8",
+    "id": "q-008",
     "level": "Junior",
     "title": "What is const constructor optimization?",
-    "prompt": "### Question 8: What is const constructor optimization?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 8: What is const constructor optimization?\nWhat is const constructor optimization? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "What is const constructor optimization? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 8: What is const constructor optimization?\nWhat is const constructor optimization? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 8: What is const constructor optimization?\nWhat is const constructor optimization? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-9",
+    "id": "q-009",
     "level": "Junior",
     "title": "How do you handle user input with TextEditingController?",
-    "prompt": "### Question 9: How do you handle user input with TextEditingController?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 9: How do you handle user input with TextEditingController?\nHow do you handle user input with TextEditingController? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you handle user input with TextEditingController? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 9: How do you handle user input with TextEditingController?\nHow do you handle user input with TextEditingController? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 9: How do you handle user input with TextEditingController?\nHow do you handle user input with TextEditingController? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-10",
+    "id": "q-010",
     "level": "Junior",
     "title": "When do you choose ListView.builder?",
-    "prompt": "### Question 10: When do you choose ListView.builder?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 10: When do you choose ListView.builder?\nWhen do you choose ListView.builder? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "When do you choose ListView.builder? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 10: When do you choose ListView.builder?\nWhen do you choose ListView.builder? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 10: When do you choose ListView.builder?\nWhen do you choose ListView.builder? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-11",
+    "id": "q-011",
     "level": "Junior",
     "title": "How do you manage app themes in Flutter?",
-    "prompt": "### Question 11: How do you manage app themes in Flutter?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 11: How do you manage app themes in Flutter?\nHow do you manage app themes in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you manage app themes in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 11: How do you manage app themes in Flutter?\nHow do you manage app themes in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 11: How do you manage app themes in Flutter?\nHow do you manage app themes in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-12",
+    "id": "q-012",
     "level": "Junior",
     "title": "How do you validate forms?",
-    "prompt": "### Question 12: How do you validate forms?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 12: How do you validate forms?\nHow do you validate forms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you validate forms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 12: How do you validate forms?\nHow do you validate forms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 12: How do you validate forms?\nHow do you validate forms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-13",
+    "id": "q-013",
     "level": "Junior",
     "title": "What is Navigator.push/pop?",
-    "prompt": "### Question 13: What is Navigator.push/pop?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 13: What is Navigator.push/pop?\nWhat is Navigator.push/pop? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "navigation"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "What is Navigator.push/pop? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 13: What is Navigator.push/pop?\nWhat is Navigator.push/pop? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 13: What is Navigator.push/pop?\nWhat is Navigator.push/pop? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-14",
+    "id": "q-014",
     "level": "Junior",
     "title": "How do async/await and FutureBuilder work together?",
-    "prompt": "### Question 14: How do async/await and FutureBuilder work together?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 14: How do async/await and FutureBuilder work together?\nHow do async/await and FutureBuilder work together? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "async",
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do async/await and FutureBuilder work together? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 14: How do async/await and FutureBuilder work together?\nHow do async/await and FutureBuilder work together? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 14: How do async/await and FutureBuilder work together?\nHow do async/await and FutureBuilder work together? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-15",
+    "id": "q-015",
     "level": "Junior",
     "title": "How do you parse JSON in Dart?",
-    "prompt": "### Question 15: How do you parse JSON in Dart?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 15: How do you parse JSON in Dart?\nHow do you parse JSON in Dart? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
-      "architecture",
-      "data"
+      "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you parse JSON in Dart? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 15: How do you parse JSON in Dart?\nHow do you parse JSON in Dart? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 15: How do you parse JSON in Dart?\nHow do you parse JSON in Dart? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-16",
+    "id": "q-016",
     "level": "Junior",
     "title": "How do you call REST APIs in Flutter?",
-    "prompt": "### Question 16: How do you call REST APIs in Flutter?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 16: How do you call REST APIs in Flutter?\nHow do you call REST APIs in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
-      "data"
+      "networking"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you call REST APIs in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 16: How do you call REST APIs in Flutter?\nHow do you call REST APIs in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 16: How do you call REST APIs in Flutter?\nHow do you call REST APIs in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-17",
+    "id": "q-017",
     "level": "Junior",
     "title": "What is pubspec.yaml used for?",
-    "prompt": "### Question 17: What is pubspec.yaml used for?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 17: What is pubspec.yaml used for?\nWhat is pubspec.yaml used for? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "build"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "What is pubspec.yaml used for? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 17: What is pubspec.yaml used for?\nWhat is pubspec.yaml used for? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 17: What is pubspec.yaml used for?\nWhat is pubspec.yaml used for? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-18",
+    "id": "q-018",
     "level": "Junior",
     "title": "How do you add assets and fonts?",
-    "prompt": "### Question 18: How do you add assets and fonts?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 18: How do you add assets and fonts?\nHow do you add assets and fonts? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you add assets and fonts? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 18: How do you add assets and fonts?\nHow do you add assets and fonts? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 18: How do you add assets and fonts?\nHow do you add assets and fonts? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-19",
+    "id": "q-019",
     "level": "Junior",
     "title": "What is null safety in Dart?",
-    "prompt": "### Question 19: What is null safety in Dart?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 19: What is null safety in Dart?\nWhat is null safety in Dart? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "What is null safety in Dart? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 19: What is null safety in Dart?\nWhat is null safety in Dart? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 19: What is null safety in Dart?\nWhat is null safety in Dart? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-20",
+    "id": "q-020",
     "level": "Junior",
     "title": "How do you debug layout overflow?",
-    "prompt": "### Question 20: How do you debug layout overflow?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 20: How do you debug layout overflow?\nHow do you debug layout overflow? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
-      "ui"
+      "rendering"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you debug layout overflow? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 20: How do you debug layout overflow?\nHow do you debug layout overflow? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 20: How do you debug layout overflow?\nHow do you debug layout overflow? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-21",
+    "id": "q-021",
     "level": "Junior",
     "title": "What is the purpose of MediaQuery?",
-    "prompt": "### Question 21: What is the purpose of MediaQuery?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 21: What is the purpose of MediaQuery?\nWhat is the purpose of MediaQuery? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "What is the purpose of MediaQuery? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 21: What is the purpose of MediaQuery?\nWhat is the purpose of MediaQuery? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 21: What is the purpose of MediaQuery?\nWhat is the purpose of MediaQuery? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-22",
+    "id": "q-022",
     "level": "Junior",
     "title": "How do you make responsive UIs?",
-    "prompt": "### Question 22: How do you make responsive UIs?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
-    "topics": [
-      "performance",
-      "architecture",
-      "ui"
-    ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
-    "referenceAnswerSections": {
-      "theory": "How do you make responsive UIs? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
-    },
-    "sourceMarkdown": "### Question 22: How do you make responsive UIs?\nHow do you make responsive UIs? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
-  },
-  {
-    "id": "junior-offline-23",
-    "level": "Junior",
-    "title": "How do you write a basic widget test?",
-    "prompt": "### Question 23: How do you write a basic widget test?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
-    "topics": [
-      "performance",
-      "testing",
-      "architecture",
-      "ui"
-    ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
-    "referenceAnswerSections": {
-      "theory": "How do you write a basic widget test? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
-    },
-    "sourceMarkdown": "### Question 23: How do you write a basic widget test?\nHow do you write a basic widget test? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
-  },
-  {
-    "id": "junior-offline-24",
-    "level": "Junior",
-    "title": "How do you persist small local settings?",
-    "prompt": "### Question 24: How do you persist small local settings?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 22: How do you make responsive UIs?\nHow do you make responsive UIs? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you persist small local settings? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 22: How do you make responsive UIs?\nHow do you make responsive UIs? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
+    },
+    "sourceMarkdown": "### Question 22: How do you make responsive UIs?\nHow do you make responsive UIs? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
+  },
+  {
+    "id": "q-023",
+    "level": "Junior",
+    "title": "How do you write a basic widget test?",
+    "prompt": "### Question 23: How do you write a basic widget test?\nHow do you write a basic widget test? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+    "topics": [
+      "performance",
+      "testing",
+      "architecture"
+    ],
+    "followups": [],
+    "referenceAnswerSections": {
+      "theory": "### Question 23: How do you write a basic widget test?\nHow do you write a basic widget test? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
+    },
+    "sourceMarkdown": "### Question 23: How do you write a basic widget test?\nHow do you write a basic widget test? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
+  },
+  {
+    "id": "q-024",
+    "level": "Junior",
+    "title": "How do you persist small local settings?",
+    "prompt": "### Question 24: How do you persist small local settings?\nHow do you persist small local settings? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+    "topics": [
+      "performance",
+      "architecture"
+    ],
+    "followups": [],
+    "referenceAnswerSections": {
+      "theory": "### Question 24: How do you persist small local settings?\nHow do you persist small local settings? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 24: How do you persist small local settings?\nHow do you persist small local settings? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "junior-offline-25",
+    "id": "q-025",
     "level": "Junior",
     "title": "How do you handle platform differences?",
-    "prompt": "### Question 25: How do you handle platform differences?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 25: How do you handle platform differences?\nHow do you handle platform differences? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "platform"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you handle platform differences? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 25: How do you handle platform differences?\nHow do you handle platform differences? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 25: How do you handle platform differences?\nHow do you handle platform differences? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-1",
+    "id": "q-001-2",
     "level": "Mid",
     "title": "How would you compare Provider, BLoC, and Riverpod?",
-    "prompt": "### Question 1: How would you compare Provider, BLoC, and Riverpod?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 1: How would you compare Provider, BLoC, and Riverpod?\nHow would you compare Provider, BLoC, and Riverpod? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "state",
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How would you compare Provider, BLoC, and Riverpod? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 1: How would you compare Provider, BLoC, and Riverpod?\nHow would you compare Provider, BLoC, and Riverpod? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 1: How would you compare Provider, BLoC, and Riverpod?\nHow would you compare Provider, BLoC, and Riverpod? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-2",
+    "id": "q-002-2",
     "level": "Mid",
     "title": "How do you design feature-based folder architecture?",
-    "prompt": "### Question 2: How do you design feature-based folder architecture?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 2: How do you design feature-based folder architecture?\nHow do you design feature-based folder architecture? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design feature-based folder architecture? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 2: How do you design feature-based folder architecture?\nHow do you design feature-based folder architecture? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 2: How do you design feature-based folder architecture?\nHow do you design feature-based folder architecture? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-3",
+    "id": "q-003-2",
     "level": "Mid",
     "title": "What are best practices for dependency injection?",
-    "prompt": "### Question 3: What are best practices for dependency injection?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 3: What are best practices for dependency injection?\nWhat are best practices for dependency injection? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "What are best practices for dependency injection? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 3: What are best practices for dependency injection?\nWhat are best practices for dependency injection? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 3: What are best practices for dependency injection?\nWhat are best practices for dependency injection? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-4",
+    "id": "q-004-2",
     "level": "Mid",
     "title": "How do you handle offline-first sync?",
-    "prompt": "### Question 4: How do you handle offline-first sync?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 4: How do you handle offline-first sync?\nHow do you handle offline-first sync? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
-      "architecture"
+      "architecture",
+      "networking"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you handle offline-first sync? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 4: How do you handle offline-first sync?\nHow do you handle offline-first sync? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 4: How do you handle offline-first sync?\nHow do you handle offline-first sync? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-5",
+    "id": "q-005-2",
     "level": "Mid",
     "title": "How do you optimize large scrolling lists?",
-    "prompt": "### Question 5: How do you optimize large scrolling lists?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 5: How do you optimize large scrolling lists?\nHow do you optimize large scrolling lists? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you optimize large scrolling lists? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 5: How do you optimize large scrolling lists?\nHow do you optimize large scrolling lists? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 5: How do you optimize large scrolling lists?\nHow do you optimize large scrolling lists? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-6",
+    "id": "q-006-2",
     "level": "Mid",
     "title": "How do you profile app startup time?",
-    "prompt": "### Question 6: How do you profile app startup time?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 6: How do you profile app startup time?\nHow do you profile app startup time? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you profile app startup time? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 6: How do you profile app startup time?\nHow do you profile app startup time? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 6: How do you profile app startup time?\nHow do you profile app startup time? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-7",
+    "id": "q-007-2",
     "level": "Mid",
     "title": "How do isolates help with expensive work?",
-    "prompt": "### Question 7: How do isolates help with expensive work?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 7: How do isolates help with expensive work?\nHow do isolates help with expensive work? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
+      "async",
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do isolates help with expensive work? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 7: How do isolates help with expensive work?\nHow do isolates help with expensive work? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 7: How do isolates help with expensive work?\nHow do isolates help with expensive work? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-8",
+    "id": "q-008-2",
     "level": "Mid",
     "title": "How do you design robust error handling for network layers?",
-    "prompt": "### Question 8: How do you design robust error handling for network layers?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 8: How do you design robust error handling for network layers?\nHow do you design robust error handling for network layers? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
-      "architecture"
+      "architecture",
+      "networking"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design robust error handling for network layers? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 8: How do you design robust error handling for network layers?\nHow do you design robust error handling for network layers? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 8: How do you design robust error handling for network layers?\nHow do you design robust error handling for network layers? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-9",
+    "id": "q-009-2",
     "level": "Mid",
     "title": "How do you paginate APIs in Flutter?",
-    "prompt": "### Question 9: How do you paginate APIs in Flutter?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 9: How do you paginate APIs in Flutter?\nHow do you paginate APIs in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you paginate APIs in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 9: How do you paginate APIs in Flutter?\nHow do you paginate APIs in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 9: How do you paginate APIs in Flutter?\nHow do you paginate APIs in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-10",
+    "id": "q-010-2",
     "level": "Mid",
     "title": "How do you secure auth tokens on-device?",
-    "prompt": "### Question 10: How do you secure auth tokens on-device?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
-    "topics": [
-      "performance",
-      "architecture",
-      "security"
-    ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
-    "referenceAnswerSections": {
-      "theory": "How do you secure auth tokens on-device? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
-    },
-    "sourceMarkdown": "### Question 10: How do you secure auth tokens on-device?\nHow do you secure auth tokens on-device? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
-  },
-  {
-    "id": "mid-offline-11",
-    "level": "Mid",
-    "title": "How do you implement deep linking?",
-    "prompt": "### Question 11: How do you implement deep linking?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 10: How do you secure auth tokens on-device?\nHow do you secure auth tokens on-device? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you implement deep linking? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 10: How do you secure auth tokens on-device?\nHow do you secure auth tokens on-device? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
+    },
+    "sourceMarkdown": "### Question 10: How do you secure auth tokens on-device?\nHow do you secure auth tokens on-device? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
+  },
+  {
+    "id": "q-011-2",
+    "level": "Mid",
+    "title": "How do you implement deep linking?",
+    "prompt": "### Question 11: How do you implement deep linking?\nHow do you implement deep linking? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+    "topics": [
+      "performance",
+      "architecture"
+    ],
+    "followups": [],
+    "referenceAnswerSections": {
+      "theory": "### Question 11: How do you implement deep linking?\nHow do you implement deep linking? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 11: How do you implement deep linking?\nHow do you implement deep linking? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-12",
+    "id": "q-012-2",
     "level": "Mid",
     "title": "How do you coordinate navigation in modular apps?",
-    "prompt": "### Question 12: How do you coordinate navigation in modular apps?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 12: How do you coordinate navigation in modular apps?\nHow do you coordinate navigation in modular apps? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "navigation"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you coordinate navigation in modular apps? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 12: How do you coordinate navigation in modular apps?\nHow do you coordinate navigation in modular apps? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 12: How do you coordinate navigation in modular apps?\nHow do you coordinate navigation in modular apps? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-13",
+    "id": "q-013-2",
     "level": "Mid",
     "title": "How do you test repositories and services?",
-    "prompt": "### Question 13: How do you test repositories and services?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 13: How do you test repositories and services?\nHow do you test repositories and services? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "testing",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you test repositories and services? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 13: How do you test repositories and services?\nHow do you test repositories and services? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 13: How do you test repositories and services?\nHow do you test repositories and services? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-14",
+    "id": "q-014-2",
     "level": "Mid",
     "title": "How do you approach integration testing?",
-    "prompt": "### Question 14: How do you approach integration testing?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 14: How do you approach integration testing?\nHow do you approach integration testing? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you approach integration testing? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 14: How do you approach integration testing?\nHow do you approach integration testing? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 14: How do you approach integration testing?\nHow do you approach integration testing? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-15",
+    "id": "q-015-2",
     "level": "Mid",
     "title": "How do you handle app lifecycle events?",
-    "prompt": "### Question 15: How do you handle app lifecycle events?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 15: How do you handle app lifecycle events?\nHow do you handle app lifecycle events? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you handle app lifecycle events? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 15: How do you handle app lifecycle events?\nHow do you handle app lifecycle events? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 15: How do you handle app lifecycle events?\nHow do you handle app lifecycle events? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-16",
+    "id": "q-016-2",
     "level": "Mid",
     "title": "How do you migrate legacy code to null safety?",
-    "prompt": "### Question 16: How do you migrate legacy code to null safety?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 16: How do you migrate legacy code to null safety?\nHow do you migrate legacy code to null safety? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you migrate legacy code to null safety? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 16: How do you migrate legacy code to null safety?\nHow do you migrate legacy code to null safety? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 16: How do you migrate legacy code to null safety?\nHow do you migrate legacy code to null safety? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-17",
+    "id": "q-017-2",
     "level": "Mid",
     "title": "How do you create reusable design-system widgets?",
-    "prompt": "### Question 17: How do you create reusable design-system widgets?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 17: How do you create reusable design-system widgets?\nHow do you create reusable design-system widgets? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you create reusable design-system widgets? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 17: How do you create reusable design-system widgets?\nHow do you create reusable design-system widgets? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 17: How do you create reusable design-system widgets?\nHow do you create reusable design-system widgets? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-18",
+    "id": "q-018-2",
     "level": "Mid",
     "title": "How do you manage environment flavors?",
-    "prompt": "### Question 18: How do you manage environment flavors?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 18: How do you manage environment flavors?\nHow do you manage environment flavors? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you manage environment flavors? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 18: How do you manage environment flavors?\nHow do you manage environment flavors? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 18: How do you manage environment flavors?\nHow do you manage environment flavors? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-19",
+    "id": "q-019-2",
     "level": "Mid",
     "title": "How do you set up CI/CD for Flutter?",
-    "prompt": "### Question 19: How do you set up CI/CD for Flutter?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 19: How do you set up CI/CD for Flutter?\nHow do you set up CI/CD for Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "build"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you set up CI/CD for Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 19: How do you set up CI/CD for Flutter?\nHow do you set up CI/CD for Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 19: How do you set up CI/CD for Flutter?\nHow do you set up CI/CD for Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-20",
+    "id": "q-020-2",
     "level": "Mid",
     "title": "How do you reduce APK/IPA size?",
-    "prompt": "### Question 20: How do you reduce APK/IPA size?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 20: How do you reduce APK/IPA size?\nHow do you reduce APK/IPA size? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you reduce APK/IPA size? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 20: How do you reduce APK/IPA size?\nHow do you reduce APK/IPA size? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 20: How do you reduce APK/IPA size?\nHow do you reduce APK/IPA size? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-21",
+    "id": "q-021-2",
     "level": "Mid",
     "title": "How do you choose between sqflite, hive, and isar?",
-    "prompt": "### Question 21: How do you choose between sqflite, hive, and isar?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 21: How do you choose between sqflite, hive, and isar?\nHow do you choose between sqflite, hive, and isar? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
-      "architecture",
-      "data"
+      "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you choose between sqflite, hive, and isar? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 21: How do you choose between sqflite, hive, and isar?\nHow do you choose between sqflite, hive, and isar? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 21: How do you choose between sqflite, hive, and isar?\nHow do you choose between sqflite, hive, and isar? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-22",
+    "id": "q-022-2",
     "level": "Mid",
     "title": "How do you manage caching and invalidation?",
-    "prompt": "### Question 22: How do you manage caching and invalidation?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 22: How do you manage caching and invalidation?\nHow do you manage caching and invalidation? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you manage caching and invalidation? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 22: How do you manage caching and invalidation?\nHow do you manage caching and invalidation? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 22: How do you manage caching and invalidation?\nHow do you manage caching and invalidation? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-23",
+    "id": "q-023-2",
     "level": "Mid",
     "title": "How do you design API retry/backoff behavior?",
-    "prompt": "### Question 23: How do you design API retry/backoff behavior?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 23: How do you design API retry/backoff behavior?\nHow do you design API retry/backoff behavior? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
-      "data"
+      "networking"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design API retry/backoff behavior? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 23: How do you design API retry/backoff behavior?\nHow do you design API retry/backoff behavior? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 23: How do you design API retry/backoff behavior?\nHow do you design API retry/backoff behavior? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-24",
+    "id": "q-024-2",
     "level": "Mid",
     "title": "How do you prevent duplicate submissions in forms?",
-    "prompt": "### Question 24: How do you prevent duplicate submissions in forms?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 24: How do you prevent duplicate submissions in forms?\nHow do you prevent duplicate submissions in forms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you prevent duplicate submissions in forms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 24: How do you prevent duplicate submissions in forms?\nHow do you prevent duplicate submissions in forms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 24: How do you prevent duplicate submissions in forms?\nHow do you prevent duplicate submissions in forms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "mid-offline-25",
+    "id": "q-025-2",
     "level": "Mid",
     "title": "How do you review pull requests for Flutter quality?",
-    "prompt": "### Question 25: How do you review pull requests for Flutter quality?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 25: How do you review pull requests for Flutter quality?\nHow do you review pull requests for Flutter quality? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you review pull requests for Flutter quality? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 25: How do you review pull requests for Flutter quality?\nHow do you review pull requests for Flutter quality? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 25: How do you review pull requests for Flutter quality?\nHow do you review pull requests for Flutter quality? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-1",
+    "id": "q-001-3",
     "level": "Senior",
     "title": "How do you architect a large Flutter app for scale?",
-    "prompt": "### Question 1: How do you architect a large Flutter app for scale?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 1: How do you architect a large Flutter app for scale?\nHow do you architect a large Flutter app for scale? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you architect a large Flutter app for scale? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 1: How do you architect a large Flutter app for scale?\nHow do you architect a large Flutter app for scale? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 1: How do you architect a large Flutter app for scale?\nHow do you architect a large Flutter app for scale? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-2",
+    "id": "q-002-3",
     "level": "Senior",
     "title": "How do you define clean boundaries across layers?",
-    "prompt": "### Question 2: How do you define clean boundaries across layers?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 2: How do you define clean boundaries across layers?\nHow do you define clean boundaries across layers? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you define clean boundaries across layers? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 2: How do you define clean boundaries across layers?\nHow do you define clean boundaries across layers? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 2: How do you define clean boundaries across layers?\nHow do you define clean boundaries across layers? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-3",
+    "id": "q-003-3",
     "level": "Senior",
     "title": "How do you enforce consistency across multiple teams?",
-    "prompt": "### Question 3: How do you enforce consistency across multiple teams?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 3: How do you enforce consistency across multiple teams?\nHow do you enforce consistency across multiple teams? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you enforce consistency across multiple teams? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 3: How do you enforce consistency across multiple teams?\nHow do you enforce consistency across multiple teams? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 3: How do you enforce consistency across multiple teams?\nHow do you enforce consistency across multiple teams? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-4",
+    "id": "q-004-3",
     "level": "Senior",
     "title": "How do you measure and improve frame rendering performance?",
-    "prompt": "### Question 4: How do you measure and improve frame rendering performance?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 4: How do you measure and improve frame rendering performance?\nHow do you measure and improve frame rendering performance? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
-      "architecture"
+      "architecture",
+      "rendering"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you measure and improve frame rendering performance? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 4: How do you measure and improve frame rendering performance?\nHow do you measure and improve frame rendering performance? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 4: How do you measure and improve frame rendering performance?\nHow do you measure and improve frame rendering performance? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-5",
+    "id": "q-005-3",
     "level": "Senior",
     "title": "How do you debug memory leaks in Flutter?",
-    "prompt": "### Question 5: How do you debug memory leaks in Flutter?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 5: How do you debug memory leaks in Flutter?\nHow do you debug memory leaks in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
-      "architecture"
+      "architecture",
+      "memory"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you debug memory leaks in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 5: How do you debug memory leaks in Flutter?\nHow do you debug memory leaks in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 5: How do you debug memory leaks in Flutter?\nHow do you debug memory leaks in Flutter? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-6",
+    "id": "q-006-3",
     "level": "Senior",
     "title": "How do you design feature flags for staged rollouts?",
-    "prompt": "### Question 6: How do you design feature flags for staged rollouts?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 6: How do you design feature flags for staged rollouts?\nHow do you design feature flags for staged rollouts? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design feature flags for staged rollouts? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 6: How do you design feature flags for staged rollouts?\nHow do you design feature flags for staged rollouts? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 6: How do you design feature flags for staged rollouts?\nHow do you design feature flags for staged rollouts? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-7",
+    "id": "q-007-3",
     "level": "Senior",
     "title": "How do you design resilient background sync?",
-    "prompt": "### Question 7: How do you design resilient background sync?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 7: How do you design resilient background sync?\nHow do you design resilient background sync? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design resilient background sync? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 7: How do you design resilient background sync?\nHow do you design resilient background sync? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 7: How do you design resilient background sync?\nHow do you design resilient background sync? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-8",
+    "id": "q-008-3",
     "level": "Senior",
     "title": "How do you design a telemetry and observability strategy?",
-    "prompt": "### Question 8: How do you design a telemetry and observability strategy?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 8: How do you design a telemetry and observability strategy?\nHow do you design a telemetry and observability strategy? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design a telemetry and observability strategy? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 8: How do you design a telemetry and observability strategy?\nHow do you design a telemetry and observability strategy? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 8: How do you design a telemetry and observability strategy?\nHow do you design a telemetry and observability strategy? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-9",
+    "id": "q-009-3",
     "level": "Senior",
     "title": "How do you balance product speed vs code quality?",
-    "prompt": "### Question 9: How do you balance product speed vs code quality?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 9: How do you balance product speed vs code quality?\nHow do you balance product speed vs code quality? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you balance product speed vs code quality? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 9: How do you balance product speed vs code quality?\nHow do you balance product speed vs code quality? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 9: How do you balance product speed vs code quality?\nHow do you balance product speed vs code quality? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-10",
+    "id": "q-010-3",
     "level": "Senior",
     "title": "How do you design robust authentication/authorization flows?",
-    "prompt": "### Question 10: How do you design robust authentication/authorization flows?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 10: How do you design robust authentication/authorization flows?\nHow do you design robust authentication/authorization flows? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
-      "architecture",
-      "security"
+      "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design robust authentication/authorization flows? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 10: How do you design robust authentication/authorization flows?\nHow do you design robust authentication/authorization flows? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 10: How do you design robust authentication/authorization flows?\nHow do you design robust authentication/authorization flows? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-11",
+    "id": "q-011-3",
     "level": "Senior",
     "title": "How do you plan major Flutter SDK upgrades?",
-    "prompt": "### Question 11: How do you plan major Flutter SDK upgrades?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 11: How do you plan major Flutter SDK upgrades?\nHow do you plan major Flutter SDK upgrades? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you plan major Flutter SDK upgrades? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 11: How do you plan major Flutter SDK upgrades?\nHow do you plan major Flutter SDK upgrades? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 11: How do you plan major Flutter SDK upgrades?\nHow do you plan major Flutter SDK upgrades? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-12",
+    "id": "q-012-3",
     "level": "Senior",
     "title": "How do you manage plugin risk across platforms?",
-    "prompt": "### Question 12: How do you manage plugin risk across platforms?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 12: How do you manage plugin risk across platforms?\nHow do you manage plugin risk across platforms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "platform"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you manage plugin risk across platforms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 12: How do you manage plugin risk across platforms?\nHow do you manage plugin risk across platforms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 12: How do you manage plugin risk across platforms?\nHow do you manage plugin risk across platforms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-13",
+    "id": "q-013-3",
     "level": "Senior",
     "title": "How do you architect for web + mobile parity?",
-    "prompt": "### Question 13: How do you architect for web + mobile parity?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 13: How do you architect for web + mobile parity?\nHow do you architect for web + mobile parity? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "platform"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you architect for web + mobile parity? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 13: How do you architect for web + mobile parity?\nHow do you architect for web + mobile parity? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 13: How do you architect for web + mobile parity?\nHow do you architect for web + mobile parity? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-14",
+    "id": "q-014-3",
     "level": "Senior",
     "title": "How do you approach accessibility at scale?",
-    "prompt": "### Question 14: How do you approach accessibility at scale?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 14: How do you approach accessibility at scale?\nHow do you approach accessibility at scale? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you approach accessibility at scale? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 14: How do you approach accessibility at scale?\nHow do you approach accessibility at scale? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 14: How do you approach accessibility at scale?\nHow do you approach accessibility at scale? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-15",
+    "id": "q-015-3",
     "level": "Senior",
     "title": "How do you review architecture proposals?",
-    "prompt": "### Question 15: How do you review architecture proposals?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 15: How do you review architecture proposals?\nHow do you review architecture proposals? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you review architecture proposals? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 15: How do you review architecture proposals?\nHow do you review architecture proposals? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 15: How do you review architecture proposals?\nHow do you review architecture proposals? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-16",
+    "id": "q-016-3",
     "level": "Senior",
     "title": "How do you mentor engineers through complex debugging?",
-    "prompt": "### Question 16: How do you mentor engineers through complex debugging?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 16: How do you mentor engineers through complex debugging?\nHow do you mentor engineers through complex debugging? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you mentor engineers through complex debugging? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 16: How do you mentor engineers through complex debugging?\nHow do you mentor engineers through complex debugging? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 16: How do you mentor engineers through complex debugging?\nHow do you mentor engineers through complex debugging? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-17",
+    "id": "q-017-3",
     "level": "Senior",
     "title": "How do you evaluate state management tradeoffs?",
-    "prompt": "### Question 17: How do you evaluate state management tradeoffs?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 17: How do you evaluate state management tradeoffs?\nHow do you evaluate state management tradeoffs? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "state",
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you evaluate state management tradeoffs? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 17: How do you evaluate state management tradeoffs?\nHow do you evaluate state management tradeoffs? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 17: How do you evaluate state management tradeoffs?\nHow do you evaluate state management tradeoffs? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-18",
+    "id": "q-018-3",
     "level": "Senior",
     "title": "How do you build a performance budget program?",
-    "prompt": "### Question 18: How do you build a performance budget program?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 18: How do you build a performance budget program?\nHow do you build a performance budget program? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "build"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you build a performance budget program? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 18: How do you build a performance budget program?\nHow do you build a performance budget program? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 18: How do you build a performance budget program?\nHow do you build a performance budget program? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-19",
+    "id": "q-019-3",
     "level": "Senior",
     "title": "How do you design an experimentation framework?",
-    "prompt": "### Question 19: How do you design an experimentation framework?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 19: How do you design an experimentation framework?\nHow do you design an experimentation framework? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
-      "architecture"
+      "architecture",
+      "rendering"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design an experimentation framework? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 19: How do you design an experimentation framework?\nHow do you design an experimentation framework? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 19: How do you design an experimentation framework?\nHow do you design an experimentation framework? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-20",
+    "id": "q-020-3",
     "level": "Senior",
     "title": "How do you handle monorepo package boundaries?",
-    "prompt": "### Question 20: How do you handle monorepo package boundaries?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 20: How do you handle monorepo package boundaries?\nHow do you handle monorepo package boundaries? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you handle monorepo package boundaries? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 20: How do you handle monorepo package boundaries?\nHow do you handle monorepo package boundaries? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 20: How do you handle monorepo package boundaries?\nHow do you handle monorepo package boundaries? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-21",
+    "id": "q-021-3",
     "level": "Senior",
     "title": "How do you reduce build times in CI?",
-    "prompt": "### Question 21: How do you reduce build times in CI?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 21: How do you reduce build times in CI?\nHow do you reduce build times in CI? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "build"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you reduce build times in CI? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 21: How do you reduce build times in CI?\nHow do you reduce build times in CI? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 21: How do you reduce build times in CI?\nHow do you reduce build times in CI? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-22",
+    "id": "q-022-3",
     "level": "Senior",
     "title": "How do you design secure local data storage?",
-    "prompt": "### Question 22: How do you design secure local data storage?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 22: How do you design secure local data storage?\nHow do you design secure local data storage? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design secure local data storage? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 22: How do you design secure local data storage?\nHow do you design secure local data storage? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 22: How do you design secure local data storage?\nHow do you design secure local data storage? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-23",
+    "id": "q-023-3",
     "level": "Senior",
     "title": "How do you model domain errors and recovery UX?",
-    "prompt": "### Question 23: How do you model domain errors and recovery UX?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 23: How do you model domain errors and recovery UX?\nHow do you model domain errors and recovery UX? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you model domain errors and recovery UX? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 23: How do you model domain errors and recovery UX?\nHow do you model domain errors and recovery UX? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 23: How do you model domain errors and recovery UX?\nHow do you model domain errors and recovery UX? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-24",
+    "id": "q-024-3",
     "level": "Senior",
     "title": "How do you design reusable networking primitives?",
-    "prompt": "### Question 24: How do you design reusable networking primitives?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 24: How do you design reusable networking primitives?\nHow do you design reusable networking primitives? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design reusable networking primitives? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 24: How do you design reusable networking primitives?\nHow do you design reusable networking primitives? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 24: How do you design reusable networking primitives?\nHow do you design reusable networking primitives? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "senior-offline-25",
+    "id": "q-025-3",
     "level": "Senior",
     "title": "How do you plan disaster recovery for backend/API outages?",
-    "prompt": "### Question 25: How do you plan disaster recovery for backend/API outages?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 25: How do you plan disaster recovery for backend/API outages?\nHow do you plan disaster recovery for backend/API outages? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
-      "data"
+      "networking"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you plan disaster recovery for backend/API outages? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 25: How do you plan disaster recovery for backend/API outages?\nHow do you plan disaster recovery for backend/API outages? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 25: How do you plan disaster recovery for backend/API outages?\nHow do you plan disaster recovery for backend/API outages? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-1",
+    "id": "q-001-4",
     "level": "Expert",
     "title": "How would you evolve architecture for 5+ year lifespan?",
-    "prompt": "### Question 1: How would you evolve architecture for 5+ year lifespan?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 1: How would you evolve architecture for 5+ year lifespan?\nHow would you evolve architecture for 5+ year lifespan? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How would you evolve architecture for 5+ year lifespan? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 1: How would you evolve architecture for 5+ year lifespan?\nHow would you evolve architecture for 5+ year lifespan? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 1: How would you evolve architecture for 5+ year lifespan?\nHow would you evolve architecture for 5+ year lifespan? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-2",
+    "id": "q-002-4",
     "level": "Expert",
     "title": "How do you evaluate Flutter vs native for strategic bets?",
-    "prompt": "### Question 2: How do you evaluate Flutter vs native for strategic bets?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 2: How do you evaluate Flutter vs native for strategic bets?\nHow do you evaluate Flutter vs native for strategic bets? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you evaluate Flutter vs native for strategic bets? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 2: How do you evaluate Flutter vs native for strategic bets?\nHow do you evaluate Flutter vs native for strategic bets? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 2: How do you evaluate Flutter vs native for strategic bets?\nHow do you evaluate Flutter vs native for strategic bets? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-3",
+    "id": "q-003-4",
     "level": "Expert",
     "title": "How do you design a cross-platform plugin ecosystem?",
-    "prompt": "### Question 3: How do you design a cross-platform plugin ecosystem?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 3: How do you design a cross-platform plugin ecosystem?\nHow do you design a cross-platform plugin ecosystem? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "platform"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design a cross-platform plugin ecosystem? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 3: How do you design a cross-platform plugin ecosystem?\nHow do you design a cross-platform plugin ecosystem? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 3: How do you design a cross-platform plugin ecosystem?\nHow do you design a cross-platform plugin ecosystem? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-4",
+    "id": "q-004-4",
     "level": "Expert",
     "title": "How do you govern technical standards across squads?",
-    "prompt": "### Question 4: How do you govern technical standards across squads?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 4: How do you govern technical standards across squads?\nHow do you govern technical standards across squads? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you govern technical standards across squads? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 4: How do you govern technical standards across squads?\nHow do you govern technical standards across squads? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 4: How do you govern technical standards across squads?\nHow do you govern technical standards across squads? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-5",
+    "id": "q-005-4",
     "level": "Expert",
     "title": "How do you define long-term migration strategy for core modules?",
-    "prompt": "### Question 5: How do you define long-term migration strategy for core modules?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 5: How do you define long-term migration strategy for core modules?\nHow do you define long-term migration strategy for core modules? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you define long-term migration strategy for core modules? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 5: How do you define long-term migration strategy for core modules?\nHow do you define long-term migration strategy for core modules? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 5: How do you define long-term migration strategy for core modules?\nHow do you define long-term migration strategy for core modules? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-6",
+    "id": "q-006-4",
     "level": "Expert",
     "title": "How do you optimize rendering pipelines for complex animations?",
-    "prompt": "### Question 6: How do you optimize rendering pipelines for complex animations?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 6: How do you optimize rendering pipelines for complex animations?\nHow do you optimize rendering pipelines for complex animations? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
-      "architecture"
+      "architecture",
+      "rendering"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you optimize rendering pipelines for complex animations? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 6: How do you optimize rendering pipelines for complex animations?\nHow do you optimize rendering pipelines for complex animations? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 6: How do you optimize rendering pipelines for complex animations?\nHow do you optimize rendering pipelines for complex animations? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-7",
+    "id": "q-007-4",
     "level": "Expert",
     "title": "How do you harden apps against supply-chain attacks?",
-    "prompt": "### Question 7: How do you harden apps against supply-chain attacks?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 7: How do you harden apps against supply-chain attacks?\nHow do you harden apps against supply-chain attacks? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you harden apps against supply-chain attacks? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 7: How do you harden apps against supply-chain attacks?\nHow do you harden apps against supply-chain attacks? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 7: How do you harden apps against supply-chain attacks?\nHow do you harden apps against supply-chain attacks? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-8",
+    "id": "q-008-4",
     "level": "Expert",
     "title": "How do you architect privacy-by-design in Flutter products?",
-    "prompt": "### Question 8: How do you architect privacy-by-design in Flutter products?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 8: How do you architect privacy-by-design in Flutter products?\nHow do you architect privacy-by-design in Flutter products? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you architect privacy-by-design in Flutter products? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 8: How do you architect privacy-by-design in Flutter products?\nHow do you architect privacy-by-design in Flutter products? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 8: How do you architect privacy-by-design in Flutter products?\nHow do you architect privacy-by-design in Flutter products? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-9",
+    "id": "q-009-4",
     "level": "Expert",
     "title": "How do you design global release management for many regions?",
-    "prompt": "### Question 9: How do you design global release management for many regions?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 9: How do you design global release management for many regions?\nHow do you design global release management for many regions? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "build"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design global release management for many regions? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 9: How do you design global release management for many regions?\nHow do you design global release management for many regions? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 9: How do you design global release management for many regions?\nHow do you design global release management for many regions? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-10",
+    "id": "q-010-4",
     "level": "Expert",
     "title": "How do you design SLOs and reliability scorecards for mobile apps?",
-    "prompt": "### Question 10: How do you design SLOs and reliability scorecards for mobile apps?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 10: How do you design SLOs and reliability scorecards for mobile apps?\nHow do you design SLOs and reliability scorecards for mobile apps? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design SLOs and reliability scorecards for mobile apps? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 10: How do you design SLOs and reliability scorecards for mobile apps?\nHow do you design SLOs and reliability scorecards for mobile apps? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 10: How do you design SLOs and reliability scorecards for mobile apps?\nHow do you design SLOs and reliability scorecards for mobile apps? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-11",
+    "id": "q-011-4",
     "level": "Expert",
     "title": "How do you use static analysis to prevent architectural drift?",
-    "prompt": "### Question 11: How do you use static analysis to prevent architectural drift?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 11: How do you use static analysis to prevent architectural drift?\nHow do you use static analysis to prevent architectural drift? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you use static analysis to prevent architectural drift? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 11: How do you use static analysis to prevent architectural drift?\nHow do you use static analysis to prevent architectural drift? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 11: How do you use static analysis to prevent architectural drift?\nHow do you use static analysis to prevent architectural drift? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-12",
+    "id": "q-012-4",
     "level": "Expert",
     "title": "How do you build an internal Flutter platform team?",
-    "prompt": "### Question 12: How do you build an internal Flutter platform team?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 12: How do you build an internal Flutter platform team?\nHow do you build an internal Flutter platform team? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "platform",
       "build"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you build an internal Flutter platform team? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 12: How do you build an internal Flutter platform team?\nHow do you build an internal Flutter platform team? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 12: How do you build an internal Flutter platform team?\nHow do you build an internal Flutter platform team? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-13",
+    "id": "q-013-4",
     "level": "Expert",
     "title": "How do you quantify engineering productivity improvements?",
-    "prompt": "### Question 13: How do you quantify engineering productivity improvements?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 13: How do you quantify engineering productivity improvements?\nHow do you quantify engineering productivity improvements? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you quantify engineering productivity improvements? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 13: How do you quantify engineering productivity improvements?\nHow do you quantify engineering productivity improvements? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 13: How do you quantify engineering productivity improvements?\nHow do you quantify engineering productivity improvements? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-14",
+    "id": "q-014-4",
     "level": "Expert",
     "title": "How do you evaluate new state-management paradigms?",
-    "prompt": "### Question 14: How do you evaluate new state-management paradigms?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 14: How do you evaluate new state-management paradigms?\nHow do you evaluate new state-management paradigms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "state",
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you evaluate new state-management paradigms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 14: How do you evaluate new state-management paradigms?\nHow do you evaluate new state-management paradigms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 14: How do you evaluate new state-management paradigms?\nHow do you evaluate new state-management paradigms? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-15",
+    "id": "q-015-4",
     "level": "Expert",
     "title": "How do you build a governance model for app modularity?",
-    "prompt": "### Question 15: How do you build a governance model for app modularity?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 15: How do you build a governance model for app modularity?\nHow do you build a governance model for app modularity? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "build"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you build a governance model for app modularity? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 15: How do you build a governance model for app modularity?\nHow do you build a governance model for app modularity? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 15: How do you build a governance model for app modularity?\nHow do you build a governance model for app modularity? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-16",
+    "id": "q-016-4",
     "level": "Expert",
     "title": "How do you design highly testable animation systems?",
-    "prompt": "### Question 16: How do you design highly testable animation systems?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
-    "topics": [
-      "performance",
-      "architecture",
-      "ui"
-    ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
-    "referenceAnswerSections": {
-      "theory": "How do you design highly testable animation systems? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
-    },
-    "sourceMarkdown": "### Question 16: How do you design highly testable animation systems?\nHow do you design highly testable animation systems? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
-  },
-  {
-    "id": "expert-offline-17",
-    "level": "Expert",
-    "title": "How do you assess long-term maintainability risks?",
-    "prompt": "### Question 17: How do you assess long-term maintainability risks?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 16: How do you design highly testable animation systems?\nHow do you design highly testable animation systems? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you assess long-term maintainability risks? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 16: How do you design highly testable animation systems?\nHow do you design highly testable animation systems? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
+    },
+    "sourceMarkdown": "### Question 16: How do you design highly testable animation systems?\nHow do you design highly testable animation systems? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
+  },
+  {
+    "id": "q-017-4",
+    "level": "Expert",
+    "title": "How do you assess long-term maintainability risks?",
+    "prompt": "### Question 17: How do you assess long-term maintainability risks?\nHow do you assess long-term maintainability risks? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+    "topics": [
+      "performance",
+      "architecture"
+    ],
+    "followups": [],
+    "referenceAnswerSections": {
+      "theory": "### Question 17: How do you assess long-term maintainability risks?\nHow do you assess long-term maintainability risks? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 17: How do you assess long-term maintainability risks?\nHow do you assess long-term maintainability risks? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-18",
+    "id": "q-018-4",
     "level": "Expert",
     "title": "How do you align product experimentation with platform constraints?",
-    "prompt": "### Question 18: How do you align product experimentation with platform constraints?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 18: How do you align product experimentation with platform constraints?\nHow do you align product experimentation with platform constraints? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "platform"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you align product experimentation with platform constraints? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 18: How do you align product experimentation with platform constraints?\nHow do you align product experimentation with platform constraints? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 18: How do you align product experimentation with platform constraints?\nHow do you align product experimentation with platform constraints? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-19",
+    "id": "q-019-4",
     "level": "Expert",
     "title": "How do you design architecture for low-end devices globally?",
-    "prompt": "### Question 19: How do you design architecture for low-end devices globally?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 19: How do you design architecture for low-end devices globally?\nHow do you design architecture for low-end devices globally? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design architecture for low-end devices globally? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 19: How do you design architecture for low-end devices globally?\nHow do you design architecture for low-end devices globally? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 19: How do you design architecture for low-end devices globally?\nHow do you design architecture for low-end devices globally? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-20",
+    "id": "q-020-4",
     "level": "Expert",
     "title": "How do you approach difficult build-system migrations?",
-    "prompt": "### Question 20: How do you approach difficult build-system migrations?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 20: How do you approach difficult build-system migrations?\nHow do you approach difficult build-system migrations? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "build"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you approach difficult build-system migrations? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 20: How do you approach difficult build-system migrations?\nHow do you approach difficult build-system migrations? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 20: How do you approach difficult build-system migrations?\nHow do you approach difficult build-system migrations? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-21",
+    "id": "q-021-4",
     "level": "Expert",
     "title": "How do you create guardrails for performance regressions?",
-    "prompt": "### Question 21: How do you create guardrails for performance regressions?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 21: How do you create guardrails for performance regressions?\nHow do you create guardrails for performance regressions? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you create guardrails for performance regressions? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 21: How do you create guardrails for performance regressions?\nHow do you create guardrails for performance regressions? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 21: How do you create guardrails for performance regressions?\nHow do you create guardrails for performance regressions? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-22",
+    "id": "q-022-4",
     "level": "Expert",
     "title": "How do you design incident response for mobile production issues?",
-    "prompt": "### Question 22: How do you design incident response for mobile production issues?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 22: How do you design incident response for mobile production issues?\nHow do you design incident response for mobile production issues? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you design incident response for mobile production issues? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 22: How do you design incident response for mobile production issues?\nHow do you design incident response for mobile production issues? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 22: How do you design incident response for mobile production issues?\nHow do you design incident response for mobile production issues? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-23",
+    "id": "q-023-4",
     "level": "Expert",
     "title": "How do you define platform abstraction boundaries?",
-    "prompt": "### Question 23: How do you define platform abstraction boundaries?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 23: How do you define platform abstraction boundaries?\nHow do you define platform abstraction boundaries? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture",
       "platform"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you define platform abstraction boundaries? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 23: How do you define platform abstraction boundaries?\nHow do you define platform abstraction boundaries? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 23: How do you define platform abstraction boundaries?\nHow do you define platform abstraction boundaries? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-24",
+    "id": "q-024-4",
     "level": "Expert",
     "title": "How do you scale code ownership and review responsibility?",
-    "prompt": "### Question 24: How do you scale code ownership and review responsibility?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 24: How do you scale code ownership and review responsibility?\nHow do you scale code ownership and review responsibility? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you scale code ownership and review responsibility? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 24: How do you scale code ownership and review responsibility?\nHow do you scale code ownership and review responsibility? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 24: How do you scale code ownership and review responsibility?\nHow do you scale code ownership and review responsibility? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   },
   {
-    "id": "expert-offline-25",
+    "id": "q-025-4",
     "level": "Expert",
     "title": "How do you create a technical roadmap for Flutter excellence?",
-    "prompt": "### Question 25: How do you create a technical roadmap for Flutter excellence?\nExplain the concept, discuss tradeoffs, and provide implementation guidance.",
+    "prompt": "### Question 25: How do you create a technical roadmap for Flutter excellence?\nHow do you create a technical roadmap for Flutter excellence? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
     "topics": [
       "performance",
       "architecture"
     ],
-    "followups": [
-      "What tradeoffs did you consider?",
-      "How would you test this in production?"
-    ],
+    "followups": [],
     "referenceAnswerSections": {
-      "theory": "How do you create a technical roadmap for Flutter excellence? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
-      "examples": [
-        "```dart\n// Example sketch\nvoid discussApproach() {}\n```"
-      ],
-      "mistakes": [
-        "Answering without tradeoffs",
-        "Ignoring platform constraints"
-      ],
-      "diagrams": [
-        "Input -> Decision -> Implementation -> Validation"
-      ]
+      "theory": "### Question 25: How do you create a technical roadmap for Flutter excellence?\nHow do you create a technical roadmap for Flutter excellence? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy.",
+      "examples": [],
+      "mistakes": [],
+      "diagrams": []
     },
     "sourceMarkdown": "### Question 25: How do you create a technical roadmap for Flutter excellence?\nHow do you create a technical roadmap for Flutter excellence? Focus on clear tradeoffs, architecture decisions, performance impacts, and testing strategy."
   }
