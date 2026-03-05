@@ -1,0 +1,30 @@
+[
+  {
+    "id": "fallback-network-restricted",
+    "level": "Senior",
+    "title": "Rendering performance strategy",
+    "prompt": "How do you reduce jank in complex Flutter screens?",
+    "topics": [
+      "performance"
+    ],
+    "followups": [
+      "How to verify with profiling?"
+    ],
+    "referenceAnswerSections": {
+      "theory": "Use build splitting, const, repaint boundaries, isolate expensive work and measure frame timings.",
+      "examples": [
+        "DevTools frame chart + trace events"
+      ],
+      "mistakes": [
+        "Ignoring raster thread bottlenecks"
+      ],
+      "diagrams": [
+        "UI Thread -> Raster Thread"
+      ],
+      "followups": [
+        "What metrics define success?"
+      ]
+    },
+    "sourceMarkdown": "Fallback because ingestion unavailable."
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "Flutter Signal",
+  "short_name": "Signal",
+  "start_url": "/flutter_signal/",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "icons": []
+}
