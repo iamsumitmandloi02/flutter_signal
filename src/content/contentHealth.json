@@ -1,6 +1,36 @@
-[
-  {
-    "id": "fallback-network-restricted",
-    "status": "fallback"
-  }
-]
+{
+  "generatedAt": "2026-03-05T14:36:42.472Z",
+  "totalQuestions": 100,
+  "countsPerLevel": {
+    "Junior": 25,
+    "Mid": 25,
+    "Senior": 25,
+    "Expert": 25
+  },
+  "parsedCount": 0,
+  "fallbackCount": 100,
+  "usedOfflineFallback": true,
+  "missingFields": [],
+  "upstreamFailures": [
+    {
+      "level": "Junior",
+      "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/junior/README.md",
+      "error": "fetch failed"
+    },
+    {
+      "level": "Mid",
+      "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/mid-level/README.md",
+      "error": "fetch failed"
+    },
+    {
+      "level": "Senior",
+      "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/senior/README.md",
+      "error": "fetch failed"
+    },
+    {
+      "level": "Expert",
+      "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/expert/README.md",
+      "error": "fetch failed"
+    }
+  ]
+}

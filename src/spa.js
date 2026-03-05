@@ -1,15 +1,16 @@
-import questionBank from './content/questionBank.json' with { type: 'json' };
 import { db } from './storage.js';
 import { evaluateAttempt, overallScore, readinessFromScore } from './scoring.js';
 import { pickSessionQuestions, updateSchedulerFromAttempt, nextDueLabel } from './scheduler.js';
 
 const BASE = '/flutter_signal/';
+let questionBank = [];
+
 const appState = {
   settings: JSON.parse(localStorage.getItem('fs_settings') || '{"targetLevel":"Senior","dailyTime":"21:00","privacyAudio":true,"theme":"dark","demoMode":false}'),
   scheduler: JSON.parse(localStorage.getItem('fs_scheduler') || '{}'),
   attempts: [],
   profile: null,
-  parsedHealth: JSON.parse(localStorage.getItem('fs_content_health') || '[]')
+  parsedHealth: JSON.parse(localStorage.getItem('fs_content_health') || '{}')
 };
 
 const routes = {
@@ -23,10 +24,47 @@ const routes = {
 };
 
 export async function initApp() {
+  await loadContent();
   appState.attempts = await db.getAttempts();
   window.addEventListener('popstate', render);
   document.body.addEventListener('click', onClick);
   render();
+}
+
+
+async function loadContent() {
+  try {
+    const healthResp = await fetch(`${BASE}src/content/contentHealth.json`, { cache: 'no-store' });
+    if (healthResp.ok) {
+      appState.parsedHealth = await healthResp.json();
+      localStorage.setItem('fs_content_health', JSON.stringify(appState.parsedHealth));
+    }
+  } catch {
+    appState.parsedHealth = appState.parsedHealth || {};
+  }
+
+  const buildTs = encodeURIComponent(appState.parsedHealth?.generatedAt || '0');
+  try {
+    const contentResp = await fetch(`${BASE}src/content/questionBank.json?v=${buildTs}`, { cache: 'no-store' });
+    if (contentResp.ok) {
+      questionBank = await contentResp.json();
+    }
+  } catch {
+    questionBank = [];
+  }
+
+  if (!Array.isArray(questionBank) || !questionBank.length) {
+    questionBank = [{
+      id: 'fallback-empty-bank',
+      level: 'Senior',
+      title: 'Content unavailable',
+      prompt: 'No question bank could be loaded.',
+      topics: ['general'],
+      followups: [],
+      referenceAnswerSections: { theory: 'Try rebuilding content ingestion.', examples: [], mistakes: [], diagrams: [] },
+      sourceMarkdown: 'runtime fallback'
+    }];
+  }
 }
 
 function navigate(path) {
@@ -107,8 +145,10 @@ function renderSettings() {
 }
 
 function renderContentHealth() {
-  const health = appState.parsedHealth;
-  return `<section><h2>Content Health</h2><p>Parsed cleanly vs fallback.</p>${health.map(h=>`<div>${h.id}: ${h.status}</div>`).join('') || '<p>No ingestion metadata; using fallback bank.</p>'}</section>`;
+  const health = appState.parsedHealth || {};
+  const failures = (health.upstreamFailures || []).map(f => `<li>${f.level}: ${f.error}</li>`).join('');
+  const missing = (health.missingFields || []).map(id => `<li>${id}</li>`).join('');
+  return `<section><h2>Content Health</h2><p>Total: ${health.totalQuestions || questionBank.length}</p><p>Fallbacks: ${health.fallbackCount || 0}</p>${failures ? `<h3>Upstream failures</h3><ul>${failures}</ul>` : ''}${missing ? `<h3>Missing fields</h3><ul>${missing}</ul>` : ''}</section>`;
 }
 
 function onClick(e) {
