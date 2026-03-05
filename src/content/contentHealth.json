@@ -1,36 +1,49 @@
 {
-  "generatedAt": "2026-03-05T14:36:42.472Z",
+  "generatedAt": "2026-03-05T14:59:41.296Z",
   "totalQuestions": 100,
-  "countsPerLevel": {
+  "countsByLevel": {
     "Junior": 25,
     "Mid": 25,
     "Senior": 25,
     "Expert": 25
   },
-  "parsedCount": 0,
-  "fallbackCount": 100,
-  "usedOfflineFallback": true,
-  "missingFields": [],
-  "upstreamFailures": [
+  "upstream": [
     {
       "level": "Junior",
       "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/junior/README.md",
-      "error": "fetch failed"
+      "ok": false,
+      "error": "Failed to fetch after retries: fetch failed"
     },
     {
       "level": "Mid",
       "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/mid-level/README.md",
-      "error": "fetch failed"
+      "ok": false,
+      "error": "Failed to fetch after retries: fetch failed"
     },
     {
       "level": "Senior",
       "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/senior/README.md",
-      "error": "fetch failed"
+      "ok": false,
+      "error": "Failed to fetch after retries: fetch failed"
     },
     {
       "level": "Expert",
       "url": "https://raw.githubusercontent.com/debasmitasarkar/flutter_interview_topics/main/expert/README.md",
-      "error": "fetch failed"
+      "ok": false,
+      "error": "Failed to fetch after retries: fetch failed"
     }
+  ],
+  "parsedQuestionHeadersFound": {
+    "Junior": 25,
+    "Mid": 25,
+    "Senior": 25,
+    "Expert": 25
+  },
+  "fallbackUsed": false,
+  "warnings": [
+    "Junior fetch failed; used cached snapshot from scripts/content-cache/junior.md.",
+    "Mid fetch failed; used cached snapshot from scripts/content-cache/mid-level.md.",
+    "Senior fetch failed; used cached snapshot from scripts/content-cache/senior.md.",
+    "Expert fetch failed; used cached snapshot from scripts/content-cache/expert.md."
   ]
 }

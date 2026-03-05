@@ -73,7 +73,8 @@ function navigate(path) {
 }
 
 function currentPath() {
-  return location.hash.replace('#', '') || '/';
+  const hashPath = location.hash.replace('#', '') || '/';
+  return hashPath.split('?')[0] || '/';
 }
 
 function shell(content) {
@@ -146,9 +147,11 @@ function renderSettings() {
 
 function renderContentHealth() {
   const health = appState.parsedHealth || {};
-  const failures = (health.upstreamFailures || []).map(f => `<li>${f.level}: ${f.error}</li>`).join('');
-  const missing = (health.missingFields || []).map(id => `<li>${id}</li>`).join('');
-  return `<section><h2>Content Health</h2><p>Total: ${health.totalQuestions || questionBank.length}</p><p>Fallbacks: ${health.fallbackCount || 0}</p>${failures ? `<h3>Upstream failures</h3><ul>${failures}</ul>` : ''}${missing ? `<h3>Missing fields</h3><ul>${missing}</ul>` : ''}</section>`;
+  const upstreamFailures = (health.upstream || []).filter(item => !item.ok);
+  const failures = upstreamFailures.map(f => `<li>${f.level}: ${f.error}</li>`).join('');
+  const warnings = (health.warnings || []).map(item => `<li>${item}</li>`).join('');
+  const counts = Object.entries(health.countsByLevel || {}).map(([level, count]) => `<li>${level}: ${count}</li>`).join('');
+  return `<section><h2>Content Health</h2><p>Total: ${health.totalQuestions || questionBank.length}</p><p>Fallback used: ${health.fallbackUsed ? 'yes' : 'no'}</p>${counts ? `<h3>Counts by level</h3><ul>${counts}</ul>` : ''}${failures ? `<h3>Upstream failures</h3><ul>${failures}</ul>` : ''}${warnings ? `<h3>Warnings</h3><ul>${warnings}</ul>` : ''}</section>`;
 }
 
 function onClick(e) {
